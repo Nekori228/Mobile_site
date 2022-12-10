@@ -83,6 +83,7 @@ li {
     font-weight: bold;
     text-transform: uppercase;
     padding: 1%;
+    letter-spacing: 0.4em;
 }
 
 .print_text {
@@ -90,9 +91,11 @@ li {
     font-family: "GothamRounded";
     padding-bottom: 1%;
     color: rgb(255, 255, 255);
+    letter-spacing: 0.2em;
 }
 
 .bottom_start {
+    font-size: 0.9em;
     border-radius: 3px;
     background-color: rgb(22, 160, 133);
     text-align: center;
@@ -101,7 +104,6 @@ li {
 }
 
 .bottom_text {
-    font-size: 12px;
     font-family: "GothamRounded";
     color: rgb(255, 255, 255);
     font-weight: bold;
@@ -123,7 +125,92 @@ li {
 }
 
 .photos {
-    margin: 1%;
+    margin: 0.5%;
+}
+
+.div4 {
+    display: flex;
+    flex-direction: column;
+    margin-left: 5em;
+}
+
+.text3 {
+    font-size: 18px;
+    font-family: "GothamRounded";
+    color: rgb(22, 160, 133);
+    font-weight: bold;
+    text-transform: uppercase;
+    width: 360px;
+    margin-top: 20%;
+    margin-bottom: 8%;
+}
+
+.text4 {
+    font-size: 12px;
+    font-family: "GothamRounded";
+    color: rgb(55, 55, 55);
+    width: 360px;
+    height: 107px;
+}
+
+.big_div {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    background-color: #ececec;
+}
+
+.iphone_photo {
+    height: 25em;
+    width: 35em;
+    margin-top: 10%;
+}
+
+.big_div2 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: 5%;
+
+}
+
+.text5 {
+    font-size: 18px;
+    font-family: "GothamRounded";
+    color: rgb(22, 160, 133);
+    font-weight: bold;
+    text-transform: uppercase;
+    width: 360px;
+    margin-bottom: 8%;
+}
+
+.number {
+    font-size: 12px;
+    font-family: "GothamRounded";
+    color: rgb(55, 55, 55);
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-top: 5%;
+
+}
+
+.str {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.photo_str1 {
+    margin-top: 2%;
+    margin-right: 5%;
+    width: 11px;
+    height: 16px;
+}
+
+.photo_str2 {
+    margin-top: 2%;
+    margin-right: 5%;
+    width: 11px;
+    height: 16px;
 }
 
 
