@@ -1,0 +1,119 @@
+body {
+    background-color: green;
+}
+
+.home {
+    font-size: 16px;
+    font-family: "GothamRounded";
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    text-transform: uppercase;
+    line-height: 25;
+    position: absolute;
+    left: 271.937px;
+    top: -120.5px;
+    z-index: 8;
+}
+
+.photoapp {
+    font-size: 16px;
+    font-family: "GothamRounded";
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    text-transform: uppercase;
+    line-height: 25;
+    position: absolute;
+    left: 394.937px;
+    top: -120.5px;
+    z-index: 9;
+}
+
+.photo {
+    background-image: url('../photo/test.png');
+    position: absolute;
+    left: 607px;
+    top: 40px;
+    width: 53px;
+    height: 55px;
+    z-index: 7;
+}
+
+.design {
+    font-size: 16px;
+    font-family: "GothamRounded";
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    text-transform: uppercase;
+    line-height: 25;
+    position: absolute;
+    left: 756.937px;
+    top: -120.5px;
+    z-index: 10;
+}
+
+.download {
+    font-size: 16px;
+    font-family: "GothamRounded";
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    text-transform: uppercase;
+    line-height: 25;
+    position: absolute;
+    left: 910.937px;
+    top: -120.5px;
+    z-index: 11;
+}
+
+a {
+    text-decoration: none;
+}
+
+.life_text {
+    font-size: 36px;
+    font-family: "GothamRounded";
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    text-transform: uppercase;
+    line-height: 11.111;
+    position: absolute;
+    left: 390.605px;
+    top: 554.808px;
+    z-index: 17;
+}
+
+.print_text {
+    font-size: 16px;
+    font-family: "GothamRounded";
+    color: rgb(255, 255, 255);
+    line-height: 25;
+    position: absolute;
+    left: 475.002px;
+    top: 593.546px;
+    z-index: 18;
+}
+
+.bottom_start {
+    border-radius: 3px;
+    background-color: rgb(22, 160, 133);
+    position: absolute;
+    left: 557px;
+    top: 428px;
+    width: 166px;
+    height: 49px;
+    z-index: 19;
+}
+
+.bottom_text {
+    font-size: 12px;
+    font-family: "GothamRounded";
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    text-transform: uppercase;
+    line-height: 33.333;
+    position: absolute;
+    left: 587.937px;
+    top: 254.002px;
+    z-index: 20;
+}
+
+
