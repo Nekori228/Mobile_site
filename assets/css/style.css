@@ -213,4 +213,79 @@ li {
     height: 16px;
 }
 
+.photo_photo {
+    width: 59px;
+    height: 55px;
+}
+
+.text6 {
+    font-size: 16px;
+    font-family: "GothamRounded";
+    color: rgb(55, 55, 55);
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-top: 7%;
+}
+
+.text7 {
+    font-size: 10px;
+    font-family: "GothamRounded";
+    color: rgb(55, 55, 55);
+    text-align: center;
+    width: 139px;
+    height: 34px;
+    margin-top: 7%;
+}
+
+.owtom_photo {
+    width: 371px;
+    height: 244px;
+    margin-top: 10%;
+    margin-left: 5%;
+}
+
+.car_photo {
+    width: 370px;
+    height: 244px;
+    margin-top: 10%;
+    margin-right: 5%;
+
+}
+
+.div5 {
+    display: flex;
+    flex-direction: column;
+    margin-left: 5em;
+    align-items: center;
+    margin-top: 5%;
+    margin-right: 5%;
+}
+
+.big_div3 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: #ececec;
+}
+
+.str2 {
+    display: flex;
+    margin-top: 1%;
+}
+
+.photo_str3 {
+    margin-top: 2%;
+    margin-right: 1em;
+    width: 11px;
+    height: 16px;
+}
+
+.photo_str4 {
+    margin-top: 2%;
+    width: 11px;
+    height: 16px;
+}
+
+
+
 
