@@ -11,7 +11,6 @@ body {
     background-image: url('../photo/Livello 1.png');
     background-size: cover;
     height: 900px;
-    width: 1910px;
 }
 
 li {
@@ -266,6 +265,8 @@ li {
     flex-wrap: wrap;
     justify-content: center;
     background-color: #ececec;
+    padding-top: 5%;
+    padding-bottom: 6%;
 }
 
 .str2 {
@@ -284,6 +285,124 @@ li {
     margin-top: 2%;
     width: 11px;
     height: 16px;
+}
+
+.arms_photo {
+    background-image: url("../photo/Livello 3.png");
+    background-size: cover;
+    height: 790px;
+}
+
+.text8 {
+    font-size: 24px;
+    font-family: "GothamRounded";
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 0.2em;
+}
+
+.bottom_start2 {
+    font-size: 0.9em;
+    border-radius: 3px 0px 0px 3px;
+    background-color: white;
+    text-align: center;
+    width: 270px;
+    height: 49px;
+}
+
+.bottom_text2 {
+    font-family: "GothamRounded";
+    color: rgb(55, 55, 55);
+    font-weight: bold;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 16px;
+    display: flex;
+    justify-content: flex-start;
+    margin-left: 10%;
+}
+
+.bottom_start3 {
+    font-size: 0.9em;
+    border-radius: 0px 3px 3px 0px;
+    background-color: rgb(22, 160, 133);
+    text-align: center;
+    width: 50px;
+    height: 49px;
+}
+
+.small_div {
+    display: flex;
+}
+
+.ultra_center {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 20%;
+}
+
+.ok_icon {
+    padding-top: 30%;
+}
+
+.big_div4 {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    align-items: center;
+    background-color: #ececec;
+    padding-top: 5%;
+    padding-bottom: 7%;
+}
+
+.down {
+    font-size: 20px;
+    font-family: "GothamRounded";
+    color: rgb(55, 55, 55);
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.loren {
+    font-size: 12px;
+    font-family: "GothamRounded";
+    color: rgb(55, 55, 55);
+    text-transform: uppercase;
+    text-align: center;
+    width: 840px;
+    height: 54px;
+}
+
+.bottom_text3 {
+    font-size: 16px;
+    font-family: "GothamRounded";
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-left: 5%;
+    text-align: left;
+}
+
+.bottom_start4 {
+    font-size: 0.9em;
+    border-radius: 3px 0px 0px 3px;
+    background-color: rgb(26, 188, 156);
+    text-align: center;
+    width: 270px;
+    height: 49px;
+}
+
+.bottom_start5 {
+    font-size: 0.9em;
+    border-radius: 0px 3px 3px 0px;
+    background-color: rgb(22, 160, 133);
+    text-align: center;
+    width: 50px;
+    height: 49px;
+    margin-right: 5%;
+
 }
 
 
