@@ -1,5 +1,31 @@
+@font-face {
+    font-family: "GothamRounded";
+    src: url("../fonts/Gotham Rounded Medium.otf");
+}
+
 body {
-    background-color: green;
+    background-color: white;
+}
+
+.image_photo {
+    background-image: url('../photo/Livello 1.png');
+    background-size: cover;
+    height: 900px;
+    width: 1910px;
+}
+
+li {
+    display: inline-block;
+    margin-left: 4%;
+    margin-right: 4%;
+    margin-top: 2%;
+
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .home {
@@ -8,11 +34,6 @@ body {
     color: rgb(255, 255, 255);
     font-weight: bold;
     text-transform: uppercase;
-    line-height: 25;
-    position: absolute;
-    left: 271.937px;
-    top: -120.5px;
-    z-index: 8;
 }
 
 .photoapp {
@@ -21,21 +42,14 @@ body {
     color: rgb(255, 255, 255);
     font-weight: bold;
     text-transform: uppercase;
-    line-height: 25;
-    position: absolute;
-    left: 394.937px;
-    top: -120.5px;
-    z-index: 9;
 }
 
 .photo {
-    background-image: url('../photo/test.png');
-    position: absolute;
+    background-image: url('../photo/Livello 2.png');
     left: 607px;
     top: 40px;
     width: 53px;
     height: 55px;
-    z-index: 7;
 }
 
 .design {
@@ -44,11 +58,6 @@ body {
     color: rgb(255, 255, 255);
     font-weight: bold;
     text-transform: uppercase;
-    line-height: 25;
-    position: absolute;
-    left: 756.937px;
-    top: -120.5px;
-    z-index: 10;
 }
 
 .download {
@@ -57,15 +66,14 @@ body {
     color: rgb(255, 255, 255);
     font-weight: bold;
     text-transform: uppercase;
-    line-height: 25;
-    position: absolute;
-    left: 910.937px;
-    top: -120.5px;
-    z-index: 11;
 }
 
 a {
     text-decoration: none;
+}
+
+li {
+    list-style-type: none; /* Убираем маркеры */
 }
 
 .life_text {
@@ -74,33 +82,22 @@ a {
     color: rgb(255, 255, 255);
     font-weight: bold;
     text-transform: uppercase;
-    line-height: 11.111;
-    position: absolute;
-    left: 390.605px;
-    top: 554.808px;
-    z-index: 17;
+    padding: 1%;
 }
 
 .print_text {
     font-size: 16px;
     font-family: "GothamRounded";
+    padding-bottom: 1%;
     color: rgb(255, 255, 255);
-    line-height: 25;
-    position: absolute;
-    left: 475.002px;
-    top: 593.546px;
-    z-index: 18;
 }
 
 .bottom_start {
     border-radius: 3px;
     background-color: rgb(22, 160, 133);
-    position: absolute;
-    left: 557px;
-    top: 428px;
+    text-align: center;
     width: 166px;
     height: 49px;
-    z-index: 19;
 }
 
 .bottom_text {
@@ -109,11 +106,24 @@ a {
     color: rgb(255, 255, 255);
     font-weight: bold;
     text-transform: uppercase;
-    line-height: 33.333;
-    position: absolute;
-    left: 587.937px;
-    top: 254.002px;
-    z-index: 20;
+    text-align: center;
+}
+
+.your {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.yours {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 2%;
+}
+
+.photos {
+    margin: 1%;
 }
 
 
