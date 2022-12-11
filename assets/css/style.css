@@ -402,9 +402,29 @@ li {
     width: 50px;
     height: 49px;
     margin-right: 5%;
-
 }
 
+.text_footer {
+    font-size: 14px;
+    font-family: "GothamRounded";
+    color: rgb(55, 55, 55);
+    font-weight: bold;
+    text-transform: uppercase;
+}
 
+.text_footer2 {
+    font-size: 14px;
+    font-family: "GothamRounded";
+    color: rgb(55, 55, 55);
+    font-weight: bold;
+}
 
+.bif_footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
 
+.photo_foother {
+    margin: 2%;
+}
